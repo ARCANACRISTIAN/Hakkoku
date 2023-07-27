@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    transition: all .4s linear;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #74ACD7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    height: 50px;
+
+}
+
+nav a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+
+.buton {
+    padding: 10px;
+    width: 175px;
+    border: 1px solid white;
+    border-radius: 15px 50px;
+    background-color: #74ACD7;
+    color: white;
+    cursor: pointer;
+}
+
+.buton:hover {
+    background-color: #D9657F;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    padding: 10px;
+}
+
+.contact-simbol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+
+
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    background-image: url("https://previews.123rf.com/images/balinature/balinature1709/balinature170900092/87106840-japanese-food-sushi-rolls-rice-with-shrimp-on-a-dark-background-flat-lay-top-view.jpg")
+}
+
+.contact-text {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-shadow: 4px 4px black;
+
+
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 20px;
+}
+
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-section form input,
+select,
+textarea {
+    width: 320px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+.form-section form label {
+    margin-top: 10px;
+}
+
+.map-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    border: 0;
+    height: 400px;
+    width: 500px;
+}
+
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #74ACD7;
+    color: white;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-services a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-buttons input {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.footer-simbol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media only screen and (max-width:600px) {
+    nav {
+        width: 100%;
+        height: 70%;
+        background-color: #d7a974;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+
+    }
+
+    .buton {
+        padding: 5px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 15px 50px;
+        background-color: #74d7b6;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav a {
+        color: white;
+        font-size: larger;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    footer {
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #d7a974;
+        color: white;
+    }
+
+    .map {
+        border: 0;
+        height: 265px;
+        width: 250px;
+    }
+
+    .form-section {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        font-size: 16px;
+        height: 5px;
+    }
+
+    .contact-simbol {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 2px 2px black;
+
+
+
+    }
+
+}
